@@ -10,7 +10,7 @@ function checkNum(num) {
     } else if (num >= 20) {
         return "Huge";
     } else {
-        return "Not Applicable";
+        return "Not Applicable Here";
     }
 }
 console.log(checkNum(30));
