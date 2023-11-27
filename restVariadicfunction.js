@@ -5,7 +5,7 @@ function add(a,b, ...args){
     let y = b;
     let total = 0;
 
-    //take not od the for of loop to loop over an array
+    //take not of the for of loop to loop over an array
     for (const arg of args){
         total += arg;
     }
