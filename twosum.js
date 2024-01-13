@@ -18,6 +18,7 @@ let result = [];
 //     }
 //     return -1
 // }
+
 function checksumOptimised (myarr,target){
     let i = 0
     let j = myarr.length - 1
