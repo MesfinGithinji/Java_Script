@@ -2,9 +2,14 @@ const myarr = [12,23,34,45,56,78,89,96];
 const target = 56
 
 function linearSearch (arr,target) {
-    for(i=0; i<arr.length; i++){
+    // for(i=0; i<arr.length; i++){
+    //     if(arr[i] === target){
+    //         return i
+    //     }
+    // }
+    for (const i of arr){
         if(arr[i] === target){
-            return i
+                   return i
         }
     }
     return -1
